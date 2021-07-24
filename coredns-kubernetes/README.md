@@ -49,6 +49,14 @@
 
  Resolves to the cluster IP of the Service.
 
+ SRV records are created for a Kubernetes service’s named ports:
+
+ Format: _port-name._protocol.service.namespace.svc.cluster.local
+
+ Headless Service:
+
+ Format: auto-generated-name.my-svc.my-namespace.svc.cluster-domain.example
+
 # Default corefile config And References of each directives.
 
 Default Config Corefile which came with kubernetes version 1.21.3(Kubeadm-Self Managed)
