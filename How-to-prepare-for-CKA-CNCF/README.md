@@ -47,7 +47,8 @@ autocmd FileType yaml setlocal et ts=2 ai sw=2 nu sts=0
 - [kubernetes-the-hard-way (using GCP)](https://github.com/kelseyhightower/kubernetes-the-hard-way) 
 - [kubernetes-the-hard-way (using VirtualBox/Vagrant)](https://github.com/mmumshad/kubernetes-the-hard-way)
 - Workshop Laps: https://training.play-with-kubernetes.com/kubernetes-workshop/
-- How to register and portal details. 
+- How to register and portal details including exam details. 
+  https://docs.linuxfoundation.org/tc-docs/certification/tips-cka-and-ckad
 
 
 # Support For CKA Exam Prepration or Learning Kubernetes
