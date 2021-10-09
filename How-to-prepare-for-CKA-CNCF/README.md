@@ -7,8 +7,8 @@
   * Start with official Kubernetes-basics docs: https://kubernetes.io/docs/tutorials/kubernetes-basics/
   * [Kubernetes Course For Absolute Begineer](https://kodekloud.com/courses/kubernetes-for-the-absolute-beginners-hands-on/) - Course from Mumshad/KodeKloud
   * Courses from Katakoda including: https://www.katacoda.com/courses/kubernetes
-- Make sure you have hands-on experience.
-- Make sure you are comfortable with Kubernetes both thortically 
+- Make sure you have good hands-on experience and this is very important in clearing CKA Exam.
+- Make sure you are comfortable with Kubernetes thortically as well.
   
 ## Module 2: How to prepare (Theoretical and Hands-on is must have)
 
@@ -49,7 +49,7 @@ autocmd FileType yaml setlocal et ts=2 ai sw=2 nu sts=0
 
 # Support For CKA Exam Prepration or Learning Kubernetes
 
--  if you want to learn or prepare, please do contact us we will help to you give POC(Exam Details) as a service from devopsmalayalam.io or CNCF Trivandrum. Add `jeswinjkn@gmail.com` or `net.gini@gmail.com` as collaborators.
+-  If someone want a support for learning or prepraing you want to learn or prepare, please do contact us we will help to you give POC(Exam Details) as a service from devopsmalayalam.io or CNCF Trivandrum. Add `jeswinjkn@gmail.com` or `net.gini@gmail.com` as collaborators.
   
 **More details**
 
