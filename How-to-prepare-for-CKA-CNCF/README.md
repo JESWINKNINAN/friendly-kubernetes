@@ -20,7 +20,6 @@
 - Higly recommended [CKA course from KodeKloud](https://kodekloud.com/courses/certified-kubernetes-administrator-cka/) or in [Udemy](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
 - Practice, Practice and Practice.
   * High Recommended practice environment https://killer.sh/ 
-  
 - If you want Linux foundation itself is providing https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/
 
 ## Module 3: Tips And Tricks (Conclusion)
@@ -53,7 +52,13 @@ autocmd FileType yaml setlocal et ts=2 ai sw=2 nu sts=0
 
 # Support For CKA Exam Prepration or Learning Kubernetes
 
--  If someone want a support for learning or prepraing you want to learn or prepare, please do contact us we will help to you give POC(Exam Details) as a service from devopsmalayalam.io or CNCF Trivandrum. Add `jeswinjkn@gmail.com` or `net.gini@gmail.com` as collaborators.
+-  If someone wants support for learning Kubernetes from us please follow the steps
+
+1. Create a Github repository.
+2. Add `jeswinjkn@gmail.com` or `net.gini@gmail.com` as collaborators.
+3. Raise an issue with details of topic which you want to explore.
+4. We will try to support and create POC for you to explore further.
+5. After completing the POC, pleae raise the review request so as we can support you to complete the project. 
   
 **More details**
 
