@@ -8,9 +8,7 @@
 - Make sure you have hands-on experience.
 - Make sure you are comfortable with Kubernetes both thortically 
   
-## How to prepare (Theoretical and Hands-on is must have)
-
-**(45 mins including Q&A)**
+## Module 2: How to prepare (Theoretical and Hands-on is must have)
 
 - Start with official [curriculam](https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.21.pdf)
 - Read [Offical Candidate Requirements](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/candidate-requirements)
@@ -19,7 +17,7 @@
 - Higly recommended [CKA course from KodeKloud](https://kodekloud.com/courses/certified-kubernetes-administrator-cka/) or in [Udemy](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
 - Practice, Practice and Practice.  
 
-## Tips And Tricks (Conclusion)
+## Module 3: Tips And Tricks (Conclusion)
 
 - Bookmarks every topics with respective documents relative link when you learn Kubernetes.
 - Be familiar with [Kubernetes documentation](https://kubernetes.io/docs/home/) portal and make sure you know what to check and where.
@@ -43,6 +41,8 @@ autocmd FileType yaml setlocal et ts=2 ai sw=2 nu sts=0
 - [Certified Kubernetes Administrator (CKA)](https://www.cncf.io/certification/cka/) (Official Doc)
 - [kubernetes-the-hard-way (using GCP)](https://github.com/kelseyhightower/kubernetes-the-hard-way) 
 - [kubernetes-the-hard-way (using VirtualBox/Vagrant)](https://github.com/mmumshad/kubernetes-the-hard-way)
+
+# Support For CKA Exam Prepration or Learning Kubernetes
 
 -  if you want to learn or prepare, please do contact us we will help to you give POC(Exam Details) as a service from devopsmalayalam.io or CNCF Trivandrum. Add `jeswinjkn@gmail.com` or `net.gini@gmail.com` as collaborators.
   
