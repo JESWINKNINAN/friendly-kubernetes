@@ -1,21 +1,24 @@
 # Introduction
 
-## Module 1: Prerequisites(45 mins including Q&A)
+## Module 1: Prerequisites
 
 - Learn K8s not just CKA
 - If you are absolute begineer: 
-- [Kubernetes Course For Absolute Begineer](https://kodekloud.com/courses/kubernetes-for-the-absolute-beginners-hands-on/) - Course from Mumshad/KodeKloud
+  * Start with official Kubernetes-basics docs: https://kubernetes.io/docs/tutorials/kubernetes-basics/
+  * [Kubernetes Course For Absolute Begineer](https://kodekloud.com/courses/kubernetes-for-the-absolute-beginners-hands-on/) - Course from Mumshad/KodeKloud
+  * Courses from Katakoda including: https://www.katacoda.com/courses/kubernetes
 - Make sure you have hands-on experience.
 - Make sure you are comfortable with Kubernetes both thortically 
   
 ## Module 2: How to prepare (Theoretical and Hands-on is must have)
 
+- CKA exam is especially for SREs or Devops Engineers, who want to build,run and operate the Kubernetes infrastructure and platforms but not limited to anyone in IT. 
 - Start with official [curriculam](https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.21.pdf)
 - Read [Offical Candidate Requirements](https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/candidate-requirements)
 - Deploy Kubernetes from scratch - Use [Kelsey Hightower doc](https://github.com/kelseyhightower/kubernetes-the-hard-way)- (Kubeadm on GCP) or using [VirtualBox/Vagrant method from KodeKloud](https://github.com/mmumshad/kubernetes-the-hard-way)
 - Read [Kubernetes Up and Running](https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/) - (Higly Recommended if you are not having hands-on.
 - Higly recommended [CKA course from KodeKloud](https://kodekloud.com/courses/certified-kubernetes-administrator-cka/) or in [Udemy](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
-- Practice, Practice and Practice.  
+- Practice, Practice and Practice.
 
 ## Module 3: Tips And Tricks (Conclusion)
 
@@ -41,6 +44,8 @@ autocmd FileType yaml setlocal et ts=2 ai sw=2 nu sts=0
 - [Certified Kubernetes Administrator (CKA)](https://www.cncf.io/certification/cka/) (Official Doc)
 - [kubernetes-the-hard-way (using GCP)](https://github.com/kelseyhightower/kubernetes-the-hard-way) 
 - [kubernetes-the-hard-way (using VirtualBox/Vagrant)](https://github.com/mmumshad/kubernetes-the-hard-way)
+- Workshop Laps: https://training.play-with-kubernetes.com/kubernetes-workshop/
+- 
 
 # Support For CKA Exam Prepration or Learning Kubernetes
 
