@@ -8,7 +8,7 @@
   * [Kubernetes Course For Absolute Begineer](https://kodekloud.com/courses/kubernetes-for-the-absolute-beginners-hands-on/) - Course from Mumshad/KodeKloud
   * Courses from Katakoda including: https://www.katacoda.com/courses/kubernetes
 - Make sure you have good hands-on experience and this is very important in clearing CKA Exam.
-- Make sure you are comfortable with Kubernetes thortically as well.
+- Make sure you are comfortable with Kubernetes theoretically as well.
   
 ## Module 2: How to prepare (Theoretical and Hands-on is must have)
 
