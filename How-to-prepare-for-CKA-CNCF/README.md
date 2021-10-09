@@ -19,6 +19,9 @@
 - Read [Kubernetes Up and Running](https://www.oreilly.com/library/view/kubernetes-up-and/9781491935668/) - (Higly Recommended if you are not having hands-on.
 - Higly recommended [CKA course from KodeKloud](https://kodekloud.com/courses/certified-kubernetes-administrator-cka/) or in [Udemy](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
 - Practice, Practice and Practice.
+  * High Recommended practice environment https://killer.sh/ 
+  
+- If you want Linux foundation itself is providing https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/
 
 ## Module 3: Tips And Tricks (Conclusion)
 
@@ -45,6 +48,7 @@ autocmd FileType yaml setlocal et ts=2 ai sw=2 nu sts=0
 - [kubernetes-the-hard-way (using GCP)](https://github.com/kelseyhightower/kubernetes-the-hard-way) 
 - [kubernetes-the-hard-way (using VirtualBox/Vagrant)](https://github.com/mmumshad/kubernetes-the-hard-way)
 - Workshop Laps: https://training.play-with-kubernetes.com/kubernetes-workshop/
+- How to register and portal details. 
 
 
 # Support For CKA Exam Prepration or Learning Kubernetes
