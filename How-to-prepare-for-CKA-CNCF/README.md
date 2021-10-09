@@ -1,4 +1,4 @@
-# Introduction
+## Introduction
 
 ## Module 1: Prerequisites
 
@@ -45,7 +45,7 @@ autocmd FileType yaml setlocal et ts=2 ai sw=2 nu sts=0
 - [kubernetes-the-hard-way (using GCP)](https://github.com/kelseyhightower/kubernetes-the-hard-way) 
 - [kubernetes-the-hard-way (using VirtualBox/Vagrant)](https://github.com/mmumshad/kubernetes-the-hard-way)
 - Workshop Laps: https://training.play-with-kubernetes.com/kubernetes-workshop/
-- 
+
 
 # Support For CKA Exam Prepration or Learning Kubernetes
 
