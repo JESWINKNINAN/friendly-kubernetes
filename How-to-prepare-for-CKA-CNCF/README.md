@@ -26,7 +26,7 @@
 
 - Bookmarks every topics with respective documents relative link when you learn Kubernetes.
 - Be familiar with [Kubernetes documentation](https://kubernetes.io/docs/home/) portal and make sure you know what to check and where.
-- Use `kubectl` conventions heavily.
+- Use `kubectl` conventions heavily(run, dry-run, generators), refer: https://kubernetes.io/docs/reference/kubectl/conventions/ 
 - Configure `vim` editor for yaml - for editing yaml files easily with proper indentation, spacing etc. (Read [How to Setup Vim Editor for YAML](https://www.techbeatly.com/2018/06/setup-your-vim-editor-for-ansible-playbook.html))
 
 
