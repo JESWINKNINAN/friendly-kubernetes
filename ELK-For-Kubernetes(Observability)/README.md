@@ -12,31 +12,44 @@
       * https://github.com/elastic/cloud-on-k8s
       * https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html
   * Elastic Stack Deployment using ECK Operator     
-    - ./elastic-with-data-tiers.yaml 
-    - ./kibana.yaml
+    - [elastic-with-data-tiers.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/elastic-with-data-tiers.yaml)
+    - [kibana.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/kibana.yaml)
   * Agents Stack Deployment using ECK Operator.
-    - ./filebeat.yaml
-    - ./metricbeat.yaml
+    - [filebeat.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/filebeat.yaml)
+    - [metricbeat.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/metricbeat.yaml)
   * Kafka into Elastic Stack for optimal perfomance and staging data.
 - Entire stack can be Gitops driven.  
 - Optional: Monitoring Cluster For Elastic Stack     
   
-## Part 2: Collecting Your First Pod Logs(Work Flow)
+## Part 2: Collecting Your First Pod Logs(Workflow)
 
-### Architecture. 
 
+
+### Log Collection
 - Filebeats, Fluentbit can be used to collect the Kubernetes Logs by running Filebeat, Fluentbit or any ECS supported forwarders. 
 - Fluentbit is a Log Processor and Forwarder which allows you to collect any data like metrics and logs from different sources, enrich them with filters and send them to multiple destinations(Refer: https://github.com/fluent/fluent-bit)
+- Forwarded logs will be pushed to the any of the integration as mentioned below. 
 
-- 
+```
+Filebeat -> Kafka/Kinesis
+Filebeat -> Logstash
+Fluentbit -> Kafka/Kinesis
+Fluentbit -> Logstash
+```
 
-- 
+### Log Processing. 
+- Filebeats or any agents will ships the logs to Kafka
+
+### Visulization
 
 
-## Module 3: 
+## Part 3: Collecting Your First Pod Metrics(Workflow)
 
+### Metric Collection
 
+### Metric Processing
 
+### Visulization
 
 ## References
 
