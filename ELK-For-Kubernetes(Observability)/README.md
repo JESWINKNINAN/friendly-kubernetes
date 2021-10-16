@@ -12,11 +12,11 @@
       * https://github.com/elastic/cloud-on-k8s
       * https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html
   * Elastic Stack Deployment using ECK Operator     
-    - [elastic-with-data-tiers.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/elastic-with-data-tiers.yaml)
-    - [kibana.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/kibana.yaml)
+    - [elasticsearch.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/elasticsearch/elasticsearch.yaml)
+    - [kibana.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/kibana/kibana.yaml)
   * Agents Stack Deployment using ECK Operator.
-    - [filebeat.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/filebeat.yaml)
-    - [metricbeat.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/metricbeat.yaml)
+    - [filebeat.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/agents/filebeat.yaml)
+    - [metricbeat.yaml](https://github.com/JESWINKNINAN/friendly-kubernetes/blob/main/ELK-For-Kubernetes(Observability)/agents/metricbeat.yaml)
   * Kafka into Elastic Stack for optimal perfomance and staging data.
 - Entire stack can be Gitops driven.  
 - Optional: Monitoring Cluster For Elastic Stack     
@@ -26,8 +26,9 @@
 ![Flow Diagram](./Elastic-Log.jpg)
 
 ### Log Collection
-- Filebeats, Fluentbit or any ECS supported forwarders can be used to collect the Kubernetes Logs by running.
-- Fluentbit is a Log Processor and Forwarder which allows you to collect any data like metrics and logs from different sources, enrich them with filters and send them to multiple destinations(Refer: https://github.com/fluent/fluent-bit)
+
+- Filebeats, Fluentbit or any ECS supported forwarders can be used to collect the Kubernetes Logs by running as daemonsets(preferred type)
+- optional: Fluentbit is a Log Processor and Forwarder which allows you to collect any data like metrics and logs from different sources, enrich them with filters and send them to multiple destinations(Refer: https://github.com/fluent/fluent-bit)
 - Forwarded logs will be pushed to the any of the integration as mentioned below. 
 
 ```
@@ -38,14 +39,23 @@ Fluentbit -> Logstash
 ```
 
 ### Log Processing. 
+
 - Filebeats or any agents will ships the logs to Kafka/Logstash Directly. 
 - With help of log processor, we can parse and index the logs to the Elasticsearch.
 - Log Processing can be done in Logstash Pipline with help of log parsers such as Dissect, Grok etc.
-
+- ![Logstash Pipeline](https://www.elastic.co/guide/en/logstash/current/pipeline.html#:~:text=The%20Logstash%20event%20processing%20pipeline,to%20use%20a%20separate%20filter)
+    ```
+    inputs → filters → outputs
+    ```
+- ![Grok](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html#_grok_basics)
+- ![Dissect](https://www.elastic.co/guide/en/logstash/current/plugins-filters-dissect.html)
 
 ### Visulization
 
-- Once the logs are getting indexed, with help of index-patterns and 
+- Once the logs are getting indexed in Elasticsearch, with the help of Index-patterns and Discover we can fetch the logs as per the query.
+- ![Index-pattern](https://www.elastic.co/guide/en/kibana/current/index-patterns.html)
+- ![Discover](https://www.elastic.co/guide/en/kibana/current/discover.html) 
+- ![Alerting](https://www.elastic.co/what-is/kibana-alerting) 
 
 ## References
 
