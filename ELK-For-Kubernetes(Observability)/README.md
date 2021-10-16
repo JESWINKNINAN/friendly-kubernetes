@@ -23,7 +23,7 @@
   
 ## Part 2: Collecting Your First Pod Logs(Workflow)
 
-[Flow Diagram](Elastic-Log.jpg)
+![Flow Diagram](./Elastic-Log.jpg)
 
 ### Log Collection
 - Filebeats, Fluentbit or any ECS supported forwarders can be used to collect the Kubernetes Logs by running.
