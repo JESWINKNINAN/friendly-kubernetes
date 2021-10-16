@@ -14,7 +14,7 @@
 
 * Elastic Stack [Beats, Agents, Logstash, Kinesis, Kafka, Object Storages]
 
-## Part 1: ELK Running on Kubernetes(Elastic Cloud on Kubernetes)
+## Module 1: ELK Running on Kubernetes(Elastic Cloud on Kubernetes)
 
 - Why we need ELK for Kubernetes ? (Observability Platforms)
 - Running ELK on Kubernetes(ECK).
@@ -32,7 +32,7 @@
 - Entire stack can be Gitops driven.  
 - Optional: Monitoring Cluster For Elastic Stack     
   
-## Part 2: Collecting Your First Pod Logs(Workflow)
+## Module 2: Collecting Your First Pod Logs(Workflow)
 
 ![Flow Diagram](./Elastic-Log.jpg)
 

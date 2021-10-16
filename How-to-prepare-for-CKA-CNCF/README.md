@@ -1,3 +1,6 @@
+
+You can find the full session video from here: https://www.youtube.com/watch?v=1oQlkO-QS70&ab_channel=DevOpsMalayalam 
+
 ## Introduction
 
 ## Module 1: Prerequisites
