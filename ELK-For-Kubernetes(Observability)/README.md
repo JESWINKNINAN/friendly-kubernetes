@@ -1,12 +1,23 @@
 ## Introduction
 
-* Introduction to Observability(3 Pillers - Logs, Traces, Metrics)
+* Introduction to Observability
+  
+  - DORA's research defined these terms as follows:
+    
+    * Monitoring is tooling or a technical solution that allows teams to watch and understand the state of their systems. Monitoring is based on gathering predefined sets of metrics or logs.
+
+    * Observability is tooling or a technical solution that allows teams to actively debug their system. Observability is based on exploring properties and patterns not defined in advance.
+
+    Source: https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability
+
+  - 3 Pillers of Observability - Logs, Traces, Metrics. 
+
 * Elastic Stack [Beats, Agents, Logstash, Kinesis, Kafka, Object Storages]
 
-## Part 1: ELK Running on Kubernetes
+## Part 1: ELK Running on Kubernetes(Elastic Cloud on Kubernetes)
 
 - Why we need ELK for Kubernetes ? (Observability Platforms)
-- Running ELK on Kubernetes.
+- Running ELK on Kubernetes(ECK).
   * Introduction to ECK Operator(OSS).
     - Refer the following:
       * https://github.com/elastic/cloud-on-k8s
@@ -58,9 +69,10 @@ Fluentbit -> Logstash
 - [Alerting](https://www.elastic.co/what-is/kibana-alerting) 
 
 ## References
-
+- [Monitoring vs Observability]()
 - [Elastic Cloud on Kubernetes](https://github.com/elastic/cloud-on-k8s)
 - [Elastic Cloud on Kubernetes-Official Docs](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html)
+
 
 **More details**
 
