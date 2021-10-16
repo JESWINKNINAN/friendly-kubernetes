@@ -53,9 +53,9 @@ Fluentbit -> Logstash
 ### Visulization
 
 - Once the logs are getting indexed in Elasticsearch, with the help of Index-patterns and Discover we can fetch the logs as per the query.
-- ![Index-pattern](https://www.elastic.co/guide/en/kibana/current/index-patterns.html)
-- ![Discover](https://www.elastic.co/guide/en/kibana/current/discover.html) 
-- ![Alerting](https://www.elastic.co/what-is/kibana-alerting) 
+- [Index-pattern](https://www.elastic.co/guide/en/kibana/current/index-patterns.html)
+- [Discover](https://www.elastic.co/guide/en/kibana/current/discover.html) 
+- [Alerting](https://www.elastic.co/what-is/kibana-alerting) 
 
 ## References
 
