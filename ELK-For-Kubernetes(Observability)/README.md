@@ -23,33 +23,29 @@
   
 ## Part 2: Collecting Your First Pod Logs(Workflow)
 
-
+[Flow Diagram](Elastic-Log.jpg)
 
 ### Log Collection
-- Filebeats, Fluentbit can be used to collect the Kubernetes Logs by running Filebeat, Fluentbit or any ECS supported forwarders. 
+- Filebeats, Fluentbit or any ECS supported forwarders can be used to collect the Kubernetes Logs by running.
 - Fluentbit is a Log Processor and Forwarder which allows you to collect any data like metrics and logs from different sources, enrich them with filters and send them to multiple destinations(Refer: https://github.com/fluent/fluent-bit)
 - Forwarded logs will be pushed to the any of the integration as mentioned below. 
 
 ```
-Filebeat -> Kafka/Kinesis
+Filebeat -> Kafka/Kinesis -> Logstash
 Filebeat -> Logstash
-Fluentbit -> Kafka/Kinesis
+Fluentbit -> Kafka/Kinesis -> Logstash
 Fluentbit -> Logstash
 ```
 
 ### Log Processing. 
-- Filebeats or any agents will ships the logs to Kafka
+- Filebeats or any agents will ships the logs to Kafka/Logstash Directly. 
+- With help of log processor, we can parse and index the logs to the Elasticsearch.
+- Log Processing can be done in Logstash Pipline with help of log parsers such as Dissect, Grok etc.
+
 
 ### Visulization
 
-
-## Part 3: Collecting Your First Pod Metrics(Workflow)
-
-### Metric Collection
-
-### Metric Processing
-
-### Visulization
+- Once the logs are getting indexed, with help of index-patterns and 
 
 ## References
 
