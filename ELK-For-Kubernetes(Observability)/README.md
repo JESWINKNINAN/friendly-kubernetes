@@ -43,12 +43,12 @@ Fluentbit -> Logstash
 - Filebeats or any agents will ships the logs to Kafka/Logstash Directly. 
 - With help of log processor, we can parse and index the logs to the Elasticsearch.
 - Log Processing can be done in Logstash Pipline with help of log parsers such as Dissect, Grok etc.
-- ![Logstash Pipeline](https://www.elastic.co/guide/en/logstash/current/pipeline.html#:~:text=The%20Logstash%20event%20processing%20pipeline,to%20use%20a%20separate%20filter)
+- [Logstash Pipeline](https://www.elastic.co/guide/en/logstash/current/pipeline.html#:~:text=The%20Logstash%20event%20processing%20pipeline,to%20use%20a%20separate%20filter)
     ```
     inputs → filters → outputs
     ```
-- ![Grok](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html#_grok_basics)
-- ![Dissect](https://www.elastic.co/guide/en/logstash/current/plugins-filters-dissect.html)
+- [Grok](https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html#_grok_basics)
+- [Dissect](https://www.elastic.co/guide/en/logstash/current/plugins-filters-dissect.html)
 
 ### Visulization
 
